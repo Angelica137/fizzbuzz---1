@@ -34,6 +34,12 @@ describe('Fizzbuzz', function() {
     });
   });
 
+  describe('knows when a number is NOT', function() {
+    it('is divisible by 5', function() {
+      expect(fizzbuzz.isDivisibleByFive(1)).toBe(false);
+    });
+  });
+
   Fizzbuzz.prototype._isDivisibleBy = function(number, divisor) {
     return (number % divisor === 0);
   };
