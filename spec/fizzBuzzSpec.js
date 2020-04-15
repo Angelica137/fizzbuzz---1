@@ -6,7 +6,7 @@ describe('Fizzbuzz', function() {
   });
 
   describe('knows when a number is', function() {
-    it('divisible by 3', function() {
+    it('is divisible by 3', function() {
       expect(fizzbuzz.isDivisibleByThree(3)).toBe(true);
     });
   });
@@ -14,6 +14,12 @@ describe('Fizzbuzz', function() {
 
     it('divisible by 3', function() {
       expect(fizzbuzz.isDivisibleByThree(1)).toBe(false);
+    });
+  });
+
+  describe('knows when a number is', function() {
+    it('is divisible by 15', function() {
+      expect(fizzbuzz.isDivisibleByFifteen(15)).toBe(true);
     });
   });
 
