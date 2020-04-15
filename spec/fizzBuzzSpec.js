@@ -49,9 +49,9 @@ describe('Fizzbuzz', function() {
       expect(fizzbuzz.says(3)).toEqual("Fizz");
     });
   });
-  
+
   describe('when playing, says', function() {
-    it ('"Fizz" when a number is divisible by 15', function() {
+    it ('"FizzBuzz"s when a number is divisible by 15', function() {
       expect(fizzbuzz.says(15)).toEqual("FizzBuzz");
     });
   });
