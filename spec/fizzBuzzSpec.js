@@ -42,7 +42,7 @@ describe('Fizzbuzz', function() {
 
   Fizzbuzz.prototype._isDivisibleBy = function(number, divisor) {
     return (number % divisor === 0);
-  });
+  };
 
   describe('when playing, says', function() {
     it ('"Fizz" when a number is divisible by 3', function() {
