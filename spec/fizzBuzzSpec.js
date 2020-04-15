@@ -15,4 +15,5 @@ describe('Fizzbuzz', function() {
       expect(fizzbuzz.isDivisibleByThree(1)).toBe(false);
     });
   });
+  
 });
